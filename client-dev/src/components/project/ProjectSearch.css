@@ -1,0 +1,147 @@
+.project-container {
+    border: 1px rgb(96, 139, 168);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 5%;
+}
+
+.project-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 650px;
+    margin-top: 0%;
+}
+
+.project-box > :nth-child(1) {
+    flex: 1 0 110px;
+    margin: 10px;
+    align-items: center;
+}
+
+.project-box > :nth-child(2) {
+    flex: 2 0 75%;
+    margin: 10px;
+    align-items: center;
+}
+
+.project-box > :nth-child(3) {
+    flex: 1 0 110px;
+    margin: 10px;
+    align-items: center;
+}
+
+.project-box > :nth-child(4) {
+    flex: 1 0 110px;
+    margin: 10px;
+    height: 100px;
+    align-items: center;
+}
+
+.project-box > :nth-child(4) {
+    flex: 2 0 75%;
+    margin: 10px;
+    height: 110px;
+    align-items: center;
+}
+
+.project-box > :nth-child(5) {
+    flex: 1 0 110px;
+    margin: 10px;
+    align-items: center;
+}
+
+.project-box > :nth-child(6) {
+    flex: 2 0 75%;
+    margin: 10px;
+    align-items: center;
+}
+
+.project-box > :nth-child(7) {
+    flex: 1 0 110px;
+    margin: 10px;
+    align-items: center;
+}
+
+.project-box > :nth-child(8) {
+    flex: 2 0 75%;
+    margin: 10px;
+    align-items: center;
+}
+
+.project-box > :nth-child(9) {
+    flex: 1 0 110px;
+    margin: 10px;
+    align-items: center;
+}
+
+.project-box > :nth-child(10) {
+    flex: 2 0 75%;
+    margin: 10px;
+    align-items: center;
+}
+
+.project-prop-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.place-bid-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 650px;
+    height: 150px;
+    margin-top: 1%;
+}
+
+.place-bid-form > :nth-child(1) {
+    flex: 0 0 110px;
+    margin: 10px;
+    align-items: center;
+    height: 60px;
+    padding-top: 8px;
+}
+
+.place-bid-form > :nth-child(2) {
+    flex: 0 1 2%;
+    margin: 10px;
+    align-items: center;
+    height: 60px;
+}
+
+.place-bid-form > :nth-child(3) {
+    flex: 1 0 5px;
+    margin: 10px;
+    align-items: center;
+    height: 60px;
+    padding-top: 8px;
+}
+
+.place-bid-form > :nth-child(4) {
+    flex: 1 2 60%;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+
+.bid-input {
+    width: 140px;
+    margin-left: 2px;
+}
+
+.place-bid-form .currency {
+    margin-left: 1px;
+}
+
+.bid-submit-button {
+    margin-left: 164px;
+}
+
+.project-box .bid-expired-msg {
+    font-weight: bold;
+    color: red;
+    margin-left: 32%;
+    margin-top: 25px;
+}

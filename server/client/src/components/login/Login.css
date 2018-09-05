@@ -1,0 +1,25 @@
+.login-container {
+    border: 1px rgb(96, 139, 168);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.login-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 500px;
+    margin-top: 5%;
+}
+
+.login-form input {
+    width: 400px;
+}
+
+.login-form-button {
+    width: 40%;
+    flex: 0 1 auto;
+    left: 50%;
+    transform: translateX(-50%);
+}

@@ -1,0 +1,32 @@
+.user-details {
+    border: 1px rgb(96, 139, 168);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /*background-color: grey;*/
+}
+
+.user-summary {
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100px;
+    margin-top: 2%;
+}
+
+.user-summary .full-name {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgba(0,0,0,0.85);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.user-summary .username {
+    font-size: 20px;
+}
+
+.user-summary .user-joined {
+    margin-top: 5px;
+}

@@ -1,0 +1,42 @@
+.new-project-container {
+    border: 1px rgb(96, 139, 168);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 5%;
+}
+
+.new-project-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 500px;
+}
+
+.create-project-form-button {
+    margin-left: 35%;
+}
+
+.create-project-form-button[disabled], .create-project-form-button[disabled]:hover, .create-project-form-button[disabled]:focus {
+    opacity: 0.6;
+    color: #fff;
+    background-color: #1890ff;
+    border-color: #1890ff;
+}
+
+.new-project-form {
+    width: 800px;
+    height: 520px;
+}
+
+.new-project-bid {
+    width: 200px;
+}
+
+.new-project-budget {
+    width: 200px;
+}
+
+.new-project-form label {
+    font-weight: bold;
+}

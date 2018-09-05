@@ -1,0 +1,29 @@
+Configuration:
+  Properties:
+    Property:
+    - name: log-path
+      value: logs
+    - name: pattern-layout
+      value: '%d{HH:mm:SSSSSSS a} [%t] %-5level %logger{36} - %msg%n'
+    - name: default_file
+      value: job_marketplace.log
+  Appenders:
+    Console:
+      name: Console
+      PatternLayout:
+        pattern: ${pattern-layout}
+      target: SYSTEM_OUT
+    File:
+      name: File
+      PatternLayout:
+        pattern: ${pattern-layout}
+      fileName: ${log-path}/job_marketplace.log
+  Loggers:
+    Root:
+      level: INFO
+      additivity: false
+      AppenderRef:
+      - ref: Console
+        level: INFO
+      - ref: File
+        level: INFO

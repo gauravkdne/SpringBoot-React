@@ -1,4 +1,4 @@
-# Craft Demo - Job Marketplace
+# Job Marketplace
 
 1.    Required Tools
              a. JDK 1.8

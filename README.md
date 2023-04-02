@@ -1,4 +1,4 @@
-# Job Marketplace
+# Job Marketplace - Full Stack App
 
 1.    Required Tools
              a. JDK 1.8
